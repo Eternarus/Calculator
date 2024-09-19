@@ -8,10 +8,6 @@ function clearDisplay() {
     display.value = ""
 }
 
-function clearDisplayLastNum() {
-    display.value = ""   
-}
-
 function calculate() {
     try{
         display.value = eval(display.value)
